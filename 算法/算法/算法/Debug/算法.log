@@ -1,0 +1,4 @@
+﻿  源.cpp
+e:\qindao\算法\算法\算法\源.cpp(82): warning C4101: “s”: 未引用的局部变量
+e:\qindao\算法\算法\算法\源.cpp(99): warning C4326: “main”的返回类型应为“int”而非“void”
+  算法.vcxproj -> E:\qindao\算法\算法\Debug\插入排序算法.exe
