@@ -40,3 +40,14 @@ bin/
 */*/*/.metadata
 */*/*/*/.metadata
 
+Debug
+*/Debug
+*/*/Debug
+*/*/*/Debug
+*/*/*/*/Debug
+
+Release
+*/Release
+*/*/Release
+*/*/*/Release
+*/*/*/*/Release
