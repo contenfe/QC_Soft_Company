@@ -142,12 +142,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Builder.h" />
     <ClInclude Include="ConcreteBuilder1.h" />
+    <ClInclude Include="ConcreteBuilder2.h" />
+    <ClInclude Include="Direct.h" />
+    <ClInclude Include="Direct2.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="Product.h" />
+    <ClInclude Include="main2.cpp" />
+    <ClInclude Include="ThickPerson.h" />
+    <ClInclude Include="ThinPerson.h" />
+    <ClInclude Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
