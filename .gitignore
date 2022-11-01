@@ -1,3 +1,5 @@
+# 忽略列表
+
 bin/
 */bin/
 */*/bin/
@@ -51,3 +53,5 @@ Release
 */*/Release
 */*/*/Release
 */*/*/*/Release
+
+
