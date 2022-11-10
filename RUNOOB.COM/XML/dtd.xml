@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE note [
+    <!ELEMENT note (to,from,heading,body)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+]>
+<note>
+    <to>a1</to>
+    <from>s</from>
+    <heading>asd</heading>
+    <body>身体</body>
+</note>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<site>
+    <name>RUNOOB</name>
+    <!-- 测试-->
+    <url>https://www.runoob.com</url>
+    <logo>runoob-logo.png</logo>
+    <desc>编程学                                                                     习网站</desc>
+</site>

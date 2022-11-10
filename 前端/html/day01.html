@@ -1,0 +1,310 @@
+<!--
+ * @Author: 秦武胜
+ * @Date: 2022-11-03 09:47:19
+ * @LastEditTime: 2022-11-03 15:47:03
+ * @LastEditors: 秦武胜
+ * @Description: 
+ * @FilePath: \qindao\前端\html\day01.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+</head>
+
+<body>
+    <h2>texts</h2>
+    <div>html hello learn html of day</div>
+    <div>test</div>
+    <div>
+        <span>每日一问</span>
+        <span>今日新鲜</span>
+        <span>日历</span>
+    </div>
+    html hello learn html of day
+
+
+    <p>这是一段话使用了段落标签</p>
+    html hello learn (强制换行)<br /> html of day
+
+    <h2>特殊字符</h2>
+    <span>
+        <div>
+            <span>特殊字符</span>
+            <span>描述</span>
+            <span>字符代码</span>
+        </div>
+        <div>
+            <span>""</span>
+            <span>空格符</span>
+            <span>
+                <strong> & nbsp;</strong>
+            </span>
+        </div>
+
+        <div>
+            <span>&lt;</span>
+            <span>小于号</span>
+            <span>
+                <strong>& lt;</strong>
+            </span>
+        </div>
+
+        <div>
+            <span>&gt;</span>
+            <span>大于号</span>
+            <span>
+                <strong>& gt;</strong>
+            </span>
+        </div>
+
+        <div>
+            <span>&amp;</span>
+            <span>和号</span>
+            <span>
+                <strong>& amp;</strong>
+            </span>
+        </div>
+
+        <div>
+            <span>&yen;</span>
+            <span>人民币</span>
+            <span>
+                <strong>& yen;</strong>
+            </span>
+        </div>
+
+        <div>
+            <span>&copy;</span>
+            <span>版权</span>
+            <span>
+                <strong>& copy;</strong>
+            </span>
+        </div>
+        <div>
+            <span>&reg;</span>
+            <span>注册商标</span>
+            <span>
+                <strong>& reg;</strong>
+            </span>
+        </div>
+    </span>
+
+    <h2>文本格式化标签</h2>
+    <span>
+        <em>斜体 em</em>
+        <strong>加粗 strong</strong>
+        <del>删除线 del</del>
+        <ins>下划线 ins</ins>
+        <big>大号字 big</big>
+        <small>小号字 small</small>
+        <sub>下标字 sub</sub>
+        <sup>上标字 sup</sup>
+        <address>地址 address</address>
+    </span>
+
+
+
+    <h2>图像标签 img</h2>
+    <span>
+        <h5>src</h5>
+        <img src="../photos/04793.jpg" width="300" height="300">
+        <h5 id="two">alt 替换文字，图片没有时</h5>
+        <img src="" width="300" height="300" alt="替换文字">
+        <h5>title 提升文本</h5>
+        <img src="../photos/04793.jpg" width="300" height="300" title="car">
+        <img src="../photos/04793.jpg" width="300" height="300" title="car" border="1">
+        <h5>border 边框</h5>
+        <img src="../photos/04793.jpg" width="300" height="300" title="car" border="5">
+        <h5>设置网页的背景</h5>
+        <p>在 body background=""</p>
+        <h5>对齐</h5>
+        align: bottom,middle,top,left,right
+        <h5>可以将图片作为链接</h5>
+        <p> 在标签 a 中 加入 图片标签 img</p>
+        <a href="https://www.baidu.com" target="_blank">
+            <img src="../photos/04793.jpg" height="30" width="30">
+        </a>
+        <a href="#" target="_self">
+            <img src="../photos/04793.jpg" height="30" width="30">
+        </a>
+    </span>
+    <!-- 是大大大 -->
+    <h2> 超链接</h2>
+    <h5>描点链接</h5>
+    <a href="#two" target="_blank">图片链接</a>
+
+    <h2>格式化输出标签</h2>
+    <span>
+        <h5>pre 标签适合代码,定义预格式文本</h5>
+        <pre>
+#ifndef __CCONTEXT_H__
+#define __CCONTEXT_H__
+#include "COperation.h"
+
+
+class CContext
+{
+public:
+    CContext(COperation *temp);
+    double GetResult();
+protected:
+private:
+    COperation *op;
+};
+
+#endif
+        </pre>
+    </span>
+
+    <h2>表格 标签</h2>
+    <span>
+        <pre>
+            &lt;table&gt; 表格 
+            可选 表格标题&lt;caption&gt;我的标题&lt;/caption&gt;
+                &lt;tr&gt; 行
+                    &lt;td&gt; 列
+                    &lt;/td&gt; 列
+                    
+                    &lt;td&gt; 列
+                    &lt;/td&gt; 列
+
+                    ...
+                &lt;/tr&gt;
+
+                &lt;tr&gt; 行
+                    &lt;td&gt; 列
+                    &lt;/td&gt; 列  
+                    &lt;td&gt; 列
+                    &lt;/td&gt; 列
+                    ...
+                &lt;/tr&gt;
+                ...
+            &lt;/table&gt; 
+        </pre>
+        <span>
+            表格的表头
+            表格的表头使用 &lt;th&gt; 标签进行定义。
+            大多数浏览器会把表头显示为粗体居中的文本：
+
+            <pre>
+                &lt;table&gt; 表格 
+                    &lt;tr&gt; 行
+                        &lt;th&gt; 列
+                        &lt;/th&gt; 列
+                        ...
+                    &lt;/tr&gt;
+                    &lt;tr&gt; 行
+                        &lt;td&gt; 列
+                        &lt;/td&gt; 列
+                    ...
+                    &lt;/tr&gt;
+                    ...
+                &lt;/table&gt; 
+            </pre>
+
+            <span>
+                跨行 rowspan 属性 -- &lt;td rowspan="2" &gt;<br>
+                跨列 colspan& 属性<br>
+                &lt;table border="1" cellpadding="10"&gt; --来创建单元格内容与其边框之间的空白<br>
+                &lt;table border="1" cellspacing="10"&gt; -- 使用 Cell spacing 增加单元格之间的距离<br>
+                &lt;table border="1" background="/i/eg_bg_07.gif" bgcolor="red"&gt;<br>
+
+                table<br>
+                &nbsp;thread<br>
+                &nbsp;&nbsp;tr<br>
+                &nbsp;&nbsp;/tr<br>
+                &nbsp;/thread<br>
+                &nbsp;tbody<br>
+                &nbsp;&nbsp;tr<br>
+                &nbsp;&nbsp;/tr<br>
+                &nbsp;/tbody<br>
+
+            </span>
+        </span>
+
+    </span>
+
+    <h2>列表</h2>
+    <span>
+        <h5>无序列表 ul - li</h5>
+        <h5>有序列表 ol - li</h5>
+        <h5>自定义列表 dl - dt </h5>
+        <span>
+            <pre>
+                自定义列表以 &lt;dl&gt; 标签开始。每个自定义列表项以 &lt;dt&gt; 开始。每个自定义列表项的定义以 &lt;dd&gt; 开始。
+
+                    &lt;dl&gt;
+                    &lt;dt&gt;新浪微博&lt;/dt&gt;
+                    &lt;dd&gt;关注我们&lt;/dd&gt;
+                    &lt;dd&gt;联系我们&lt;/dd&gt;
+                    &lt;/dl&gt;
+            </pre>
+        </span>
+    </span>
+
+    <iframe src="https://cn.bing.com"></iframe>
+
+    <h2>表单</h2>
+    <form>
+        文本：
+        <input type="text" name="test_text">
+        <br>
+        单选：
+        <input type="radio" name="danxuan" value="单选" checked> 单x
+        <br>
+        <input type="radio" name="danxuan" value="单选1"> 单2
+        <br>
+        <input type="submit" name="Submit">
+
+
+    </form>
+
+    <h2>表单元素</h2>
+    <span>
+        <span>&lt;select&gt; 下拉列表</span>
+        <span>&lt;input&gt; 元素</span>
+        <span>&lt;option&gt; 元素定义待选择的选项 使用selected 属性定义预选项</span>
+        <span>&lt;textarea&gt; 文本</span>
+        <span>&lt;button&gt; 按钮</span>
+        <span>&lt;datalist&gt; 元素为 &lt;input&gt; 元素规定预定义选项列表。
+            用户会在他们输入数据时看到预定义选项的下拉列表。
+            &lt;input&gt; 元素的 list 属性必须引用 &lt;datalist&gt; 元素的 id 属性。</span>
+    </span>
+    <h2>输入类型</h2>
+    <span>
+        <div> text 文本</div>
+        <div>password 密码</div>
+        <div>submit 定义提交表单数据至表单处理程序的按钮</div>
+        <div>radio 定义单选按钮</div>
+        <div>checked 定义复选框。</div>
+        <div>button 定义按钮</div>
+        <div>number 定义按钮</div>
+        <div>date 用于应该包含日期的输入字段</div>
+        <div>
+            <div>
+                <span>属性</span>
+                <span>描述</span>
+            </div>
+            <div>
+                <span>disable</span>
+                <span>规定输入字段应该被禁用</span>
+            </div>
+            <div>
+                <span>maxlength</span>
+                <span>规定输入字段的最大字符数。</span>
+            </div>
+        </div>
+    </span>
+    <h2>input 属性</h2>
+    <span>
+        <div>value 属性规定</div>
+    </span>
+
+    <!-- https://www.w3school.com.cn/html/html_form_attributes.asp -->
+</body>
+
+</html>

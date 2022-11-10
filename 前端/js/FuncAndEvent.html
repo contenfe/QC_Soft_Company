@@ -1,0 +1,43 @@
+<!--
+ * @Author: 秦武胜
+ * @Date: 2022-11-01 14:52:49
+ * @LastEditTime: 2022-11-01 16:53:13
+ * @LastEditors: 秦武胜
+ * @Description: 
+ * @FilePath: \qindao\前端\js\FuncAndEvent.html
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="FunAndEvent.js"></script>
+</head>
+
+<body>
+    <h1>一张网页</h1>
+    <p id="demo">一个段落</p>
+    <p id="print">使用 innerHTML 访问HTML元素可使用 document.getElementById(id) 方法。</p>
+    <p id="alert">window 弹窗警告</p>
+
+    <button type="button" onclick="myFunctionTest()">点击，试一试</button>
+    <button type="button" onclick="myPrint()">点击事件</button>
+    <button type="button" onclick="myAlert()">alert事件</button>
+
+    <br />
+    <script>
+        document.write("新建行");
+    </script>
+
+    <event type="button" onclick="document.write('事件')">点击事件3</event>
+    <event type="button" onclick="this.innerHTML=Date()">更改自己的时间</event>
+
+</body>
+<script>
+
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "段落被修改";
+    }
+</script>
+
+</html>

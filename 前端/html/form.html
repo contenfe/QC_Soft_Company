@@ -1,0 +1,65 @@
+<!--
+ * @Author: 秦武胜
+ * @Date: 2022-11-03 13:42:55
+ * @LastEditTime: 2022-11-03 14:01:22
+ * @LastEditors: 秦武胜
+ * @Description: 选择表单
+ * @FilePath: \qindao\前端\html\form.html
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <span>
+        <div>
+            <form action="#" method="get">
+                <select value="选项">
+                    <option value="on1">欧尼1</option>
+                    <option value="on2">欧尼2</option>
+                    <option value="on3">欧尼3</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <form action="#" method="get">
+                <select value="选项">
+                    <option value="on1">欧尼1</option>
+                    <option value="on2" selected>欧尼2</option>
+                    <option value="on3">欧尼3</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <input list="selectValue">
+                <datalist id="selectValue">
+                    <option value="测试一"></option>
+                    <option value="测试二"></option>
+                    <option value="测试三"></option>
+                </datalist>
+            </form>
+        </div>
+    </span>
+    <button type="button" onclick="pushForm()" id="sub">提交</button>
+    <span>
+        <input type="password" name="pwd">
+    </span>
+
+</body>
+
+</html>
+<script>
+    function pushForm() {
+        document.getElementById("sub").innerHTML = "更改";
+    }
+
+</script>
