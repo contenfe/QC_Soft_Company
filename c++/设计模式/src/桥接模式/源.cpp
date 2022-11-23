@@ -12,6 +12,16 @@ GOOD：将抽象部分与实现部分分离，使它们可以独立变化。
 #include "bridge.h"
 using namespace std;
 
+/**
+ * .
+ * 
+ * \param num
+ */
+void test(int num)
+{
+
+}
+
 int main()
 {
 	HandsetBrand *brand;

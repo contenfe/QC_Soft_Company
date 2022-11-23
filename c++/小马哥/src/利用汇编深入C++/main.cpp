@@ -1,0 +1,1 @@
+#include<iostream> #include<regex> using namespace std;  /**  * main.cpp  *  * 完成时间  *  * \return  */  void test() {  }  void test(int i) {  }  void test(double d) {  }  int main1() { 	int array[]{ 1,2,3,4,5 }; 	int a = 0;  	int b = a + 1;  	cout << b << endl; 	return 0; }
