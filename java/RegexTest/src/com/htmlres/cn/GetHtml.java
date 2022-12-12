@@ -23,7 +23,7 @@ public class GetHtml {
 			
 			URL url = new URL(urlStr);
 			
-			BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "gbk"));
+			BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), charset));
 			String temp="";
 			while((temp=reader.readLine())!=null)
 			{
@@ -38,7 +38,8 @@ public class GetHtml {
 	}
 	
 	public static void main(String[] args) {
-		
-		GetHtml("http://www.jj20.com/bz/nxxz/shxz/25612.html", "gbk");
+		String[] a= {"https://www.woyaogexing.com/tupian/dongman/2022/210937.html",
+				"https://www.umei.cc/weimeitupian/yijingtupian/281447.htm"};
+		GetHtml(a[1], "utf-8");
 	}
 }

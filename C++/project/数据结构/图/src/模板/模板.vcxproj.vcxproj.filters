@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{c3d13e73-5e7f-40ee-8266-7645f4f7e8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{61f5b713-ac92-4541-a9ee-1de97a111e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\main">
+      <UniqueIdentifier>{9e16c5d9-109e-4fb6-8cdc-a6877c7c0dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\main">
+      <UniqueIdentifier>{525d85c9-82a5-4862-9cef-6aa1cf972bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graph">
+      <UniqueIdentifier>{fc4e77f5-5e47-4ab2-acd8-caf79c3cda1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Graph">
+      <UniqueIdentifier>{ff42bc4d-d4ce-44fc-849d-f485f25950e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>include\main</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\graph.h">
+      <Filter>include\Graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main\main.cpp">
+      <Filter>src\main</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\graph.cpp">
+      <Filter>src\Graph</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

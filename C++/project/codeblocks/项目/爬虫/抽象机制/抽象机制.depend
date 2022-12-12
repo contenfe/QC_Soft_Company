@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1669961693 source:e:\qindao\c++\codeblocks\项目\爬虫\抽象机制\main.cpp
+	<iostream>
+	"graph.h"
+
+1669961656 e:\qindao\c++\codeblocks\项目\爬虫\抽象机制\graph.h
+

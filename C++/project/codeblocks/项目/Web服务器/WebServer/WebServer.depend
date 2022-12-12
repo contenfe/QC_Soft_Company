@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1669281486 source:e:\qindao\c++\codeblocks\项目\web服务器\webserver\main.cpp
+	<iostream>
+	"main.h"
+	"html.h"
+
+1669168884 e:\qindao\c++\codeblocks\项目\web服务器\webserver\main.h
+
+1669015589 e:\qindao\c++\codeblocks\项目\web服务器\webserver\html.h
+	<WinSock2.h>
+
+1669274611 source:e:\qindao\c++\codeblocks\项目\web服务器\webserver\html.cpp
+	<iostream>
+	"html.h"
+	"WinSock2.h"
+	<fstream>
+

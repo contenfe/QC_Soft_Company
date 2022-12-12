@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1669109134 source:e:\qindao\c++\codeblocks\项目\c++爬取网页\html.cpp
+	<iostream>
+	"html.h"
+	<WinSock2.h>
+	<fstream>
+
+1669015589 e:\qindao\c++\codeblocks\项目\c++爬取网页\html.h
+	<WinSock2.h>
+
+1669109550 source:e:\qindao\c++\codeblocks\项目\c++爬取网页\main.cpp
+	<iostream>
+	"html.h"
+

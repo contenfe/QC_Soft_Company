@@ -1,0 +1,7 @@
+error: When enabling GENERATE_HTMLHELP the SEARCHENGINE option should be disabled. I'll adjust it for you.
+error: When enabling GENERATE_HTMLHELP the HTML_DYNAMIC_MENUS option should be disabled. I'll adjust it for you.
+error: When enabling 'GENERATE_HTMLHELP' the 'HTML_COLORSTYLE' option should be either 'LIGHT' or 'DARK' but has value 'AUTO_LIGHT'. I'll adjust it for you to 'LIGHT'.
+Doxygen version used: 1.9.5 (2f6875a5ca481a69a6f32650c77a667f87d25e88)
+error: Could not open file E:/qindao/c++/C++ÅÀ³æ/src/ÏîÄ¿/doc/html/index.hhc for writing
+Exiting...
+*** Doxygen has finished
